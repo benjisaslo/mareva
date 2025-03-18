@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarEva - Kontakt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d5006d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>MarEva - Kontakt</h1>
+    <nav>
+        <a href="index.html">Domov</a>
+        <a href="o-nas.html">O nas</a>
+        <a href="storitve.html">Storitve</a>
+        <a href="galerija.html">Galerija</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+</header>
+<section>
+    <h2>Kontaktirajte nas</h2>
+    <p>Imate vprašanja? Pišite nam!</p>
+    <form action="submit.php" method="POST">
+        <input type="text" name="ime" placeholder="Ime" required>
+        <input type="email" name="eposta" placeholder="E-pošta" required>
+        <textarea rows="4" name="sporočilo" placeholder="Sporočilo" required></textarea>
+        <button type="submit">Pošlji</button>
+    </form>
+</section>
+<footer>
+    <p>&copy; 2023 MarEva - Svetloba v temi | <a href="mailto:info@mareva.com">Pošlji e-pošto</a></p>
+</footer>
+</body>
+</html>
